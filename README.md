@@ -6,7 +6,7 @@ Basic trading environment using stock prices
 
 `cd gym-trader`
 
-`pip install -e`
+`pip install -e .`
 
 ### How to use
 
