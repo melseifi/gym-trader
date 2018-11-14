@@ -41,7 +41,8 @@ Basic trading environment using stock prices
             break
 
 ### Examples
-    [policy_search](examples/policy_search.ipynb)
-    [I'm a relative reference to a repository file](../blob/master/LICENSE) 
+
+    [Policy Search](/examples/policy_search.ipynb)
+    [Deep Q Network](examples/DQN.ipynb) 
 
     
