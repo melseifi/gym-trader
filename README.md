@@ -42,7 +42,9 @@ Basic trading environment using stock prices
 
 ### Examples
 
-    [Policy Search](/examples/policy_search.ipynb)
-    [Deep Q Network](examples/DQN.ipynb) 
+[Policy Search](/examples/policy_search.ipynb)
+
+[Deep Q Network](examples/DQN.ipynb)
+
 
     
