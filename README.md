@@ -1,14 +1,14 @@
 # Gym Trader
 Basic trading environment using stock prices
 
-### How to install
+### Installation
 `git clone https://github.com/overlapjho/gym-trader.git`
 
 `cd gym-trader`
 
-`pip install -e`
+`pip install -e .`
 
-### How to use
+### Usage
 
     import gym
     import gym_trader.envs.trader as make
@@ -38,6 +38,10 @@ Basic trading environment using stock prices
         print("action:", action, " state: ", state , " reward:", reward, done)
     
         if done:
-            break 
+            break
+
+### Examples
+    [policy_search](examples/policy_search.ipynb)
+    [I'm a relative reference to a repository file](../blob/master/LICENSE) 
 
     
