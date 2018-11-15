@@ -22,20 +22,13 @@ Basic trading environment using stock prices
     state = env.reset()
 
     done = False
-    rewards = []
-    states = []
 
-    act = np.random.randit(2)
+    action = np.random.randit(2)
 
     while not done:
 
-        action = act
         state, reward, done = env.step(action)
-
-        rewards.append(reward)
-        states.append(state)
-
-        print("action:", action, " state: ", state , " reward:", reward, done)
+        print("Price:", state, " Action: ", action , " Reward:", reward, done)
     
         if done:
             break
